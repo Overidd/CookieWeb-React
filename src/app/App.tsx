@@ -1,8 +1,7 @@
 // import { useState } from 'react'
-import './App.css'
 import {Route, Switch } from "wouter";
-import {Detalle,Home} from './vistas'
-
+import {Home} from './home'
+import { Detalle } from "./Detalle";
 
 function App() {
 

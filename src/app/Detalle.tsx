@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import HeaderNav from "../components/desktop/HeaderNav";
+import HeaderNav from "./home/HeaderNav";
 
 export function Detalle() {
    return (
