@@ -1,12 +1,13 @@
 import React from 'react'
 
 
+
 interface Props {
    titulo: string,
    descripcion: string,
    boton: React.JSX.Element,
-   src: string,
-   alt: string,
+   src: string
+   alt: string
 }
 
 export default function CarouseInfo({ titulo, descripcion, boton, src, alt }: Props) {
